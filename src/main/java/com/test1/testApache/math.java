@@ -15,7 +15,7 @@ public class math {
 
 	boolean ismax(double d[]) {
 		Max max = new Max();
-		if (max.evaluate(d) < 10) {
+		if (max.evaluate(d) > 10) {
 			return false;
 		}
 		return true;
